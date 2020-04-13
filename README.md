@@ -1,7 +1,10 @@
 # Fake-Humans
 Python code that generates tuples of fake humans for use within a database (CSC 471 project)
 
-<img align="left">
+<p align="center">
+  <img src="Resources/fakeHumans.gif"/>
+</p>
+
 ![alt-text](Resources/fakeHumans.gif)
 
 ## Authors
@@ -13,3 +16,4 @@ Python code that generates tuples of fake humans for use within a database (CSC 
 * Google
 * Stack Overflow
 * Python Faker Library
+
