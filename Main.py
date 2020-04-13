@@ -23,13 +23,12 @@ def generate_data(n):
 
     # Generates 'n' number of random people
     for i in range(0, n):
-        fake_humans_file.write(str(i + 1) + ') '
-                               + str(fake.ssn()) + ', '
-                               + date_of_birth() + ', '
-                               + str(fake.first_name()) + ', '
-                               + str(fake.first_name()) + ', '
-                               + str(fake.last_name()) + ', '
-                               + str(fake.address()) + '\n')
+        fake_humans_file.write(str(fake.ssn()) + ','
+                               + date_of_birth() + ','
+                               + str(fake.first_name()) + ','
+                               + str(fake.first_name()) + ','
+                               + str(fake.last_name()) + ','
+                               + str(fake.street_address()) + '\n')
 
     # Closing the file after done writing data
     fake_humans_file.close()
