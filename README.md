@@ -5,8 +5,6 @@ Python code that generates tuples of fake humans for use within a database (CSC 
   <img src="Resources/fakeHumans.gif"/>
 </p>
 
-![alt-text](Resources/fakeHumans.gif)
-
 ## Authors
 
 * **Alejandro Penaloza** - [Github](https://github.com/apenaloza7)
