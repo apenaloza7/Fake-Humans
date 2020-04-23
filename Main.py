@@ -36,7 +36,7 @@ def generate_data(n):
 
 def run():
     # Variable for the number of people wanted
-    num_of_people = 2000
+    num_of_people = 10
 
     # Calling method to generate text file
     generate_data(num_of_people)
